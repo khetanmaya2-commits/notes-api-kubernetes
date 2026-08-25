@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: notes-api
-          image: maya1827/notes-api:v1
+          image: maya1827/notes-api:latest
           ports:
            - containerPort: 3000       

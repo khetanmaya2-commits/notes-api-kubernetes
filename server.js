@@ -20,15 +20,15 @@ const notes=[
 
 app.get('/',(req,res)=>{
     res.json({
-        message:"Notes API is running!",
-        version: "2.0"
+        message:"Notes API is running and it is built using node and express!",
+        version: "3.0"
     });
 });
 
 app.get('/health',(req,res)=>{
     res.json({
         status: "health",
-        version: "2.0"
+        version: "3.0"
     });
 });
 
